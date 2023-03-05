@@ -35,22 +35,26 @@ font-size:13px;
 cursor:pointer; 
 color:white; 
 } 
-body {
- background: url(https://priyansh.xyz/assets/background.jpg) no-repeat scroll center; 
- background-size: cover; background-attachment: fixed;
-}
+
 *{
   color:white;
 }
-input {
-    background-color: #292929;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-}
 </style> 
-<script> 
+
+</head> 
+<body> 
+<div class="outer"> 
+<h1 style="text-align:center">Login...</h1> 
+<p>Username</p> 
+<input class="in" type="text" placeholder="@username" id="a"/> 
+<p>Password</p> 
+<input class="in" type="password" placeholder="Enter password" id="b"/> 
+<br> 
+<input type="submit" onmouseenter="fa()" onclick="alert('Submitted')" id="bt" /> 
+ 
+</div> 
+ <br>
+  <script> 
 function fa(){ 
 if(a.value=="" || b.value==""){ 
 f() 
@@ -77,27 +81,6 @@ flag=1
 } 
 } 
 </script> 
-</head> 
-<body> 
-<div class="outer"> 
-<h1 style="text-align:center">Login...</h1> 
-<p>Username</p> 
-<input class="in" type="text" placeholder="@username" id="a"/> 
-<p>Password</p> 
-<input class="in" type="password" placeholder="Enter password" id="b"/> 
-<br> 
-<input style="
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-"type="submit" onmouseenter="fa()" onclick="alert('Submitted')" id="bt" /> 
- 
-</div> 
- <br> <center>
-  <a href="https://priyansh.xyz"> <img src="https://www.priyansh.xyz/assets/logo.png" width="40px"></a> <a href="https://github.com/oyepriyansh/legend-form"><img src="https://www.priyansh.xyz/assets/social/github.svg" width="40px"></a> </center>
 </body> 
  
  
